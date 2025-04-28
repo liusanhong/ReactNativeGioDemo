@@ -103,7 +103,11 @@ android {
         }
     }
 }
-
+repositories {
+    flatDir {
+        dirs 'libs', '../../node_modules/react-native-ali-onepass/android/libs'
+    }
+}
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")

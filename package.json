@@ -13,7 +13,9 @@
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.74.7",
-    "react-native-autotrack-growingio": "^0.0.10"
+    "react-native-autotrack-growingio": "^0.0.10",
+    "react-native-ali-onepass": "3.4.0",
+    "patch-package": "6.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
